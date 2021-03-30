@@ -1,20 +1,6 @@
-![function_bench_title](./docs/images/function_bench_title.png)
-
-## PUBLICATION
-_Jeongchul Kim and Kyungyong Lee, 'Function Bench : A Suite of Workloads for Serverless Cloud Function Service',
-IEEE International Conference on Cloud Computing 2019, 07/2019 [pdf](https://kimjeongchul.github.io/assets/paper/FunctionBench%20-%20A%20Suite%20of%20Workloads%20for%20Serverless%20Cloud%20Function%20Service.pdf)_
-
-_Jeongchul Kim and Kyungyong Lee, 'Practical Cloud Workloads for Serverless FaaS, ACM Symposium on Cloud Computing 2019, 11/2019_ [pdf](https://dl.acm.org/citation.cfm?id=3365439)
-
-The FunctionBench is composed of micro benchmark and application workload; 
-the micro-benchmark uses simple system calls to measure performance of resources exclusively, 
-and the application-benchmark represents realistic data-oriented applications that generally utilize various resources together. 
-With the introduction of FunctionBench, we believe that researchers can easily deploy function applications to evaluate their proposed systems and algorithms justly. 
-To the best of our knowledge, the proposed FunctionBench is the first publicly available realistic FaaS workload suites that are ready to be deployed on public cloud services.
-
-- [AWS Lambda](https://aws.amazon.com/lambda/)
-- [Google Cloud Functions](https://cloud.google.com/functions/) 
-- [Azure Functions](https://azure.microsoft.com/en-us/services/functions/)
+This is a fork of
+[FunctionBench](https://github.com/kmu-bigdata/serverless-faas-workbench) to
+work with SnapFaaS.
 
 ## FunctionBench workloads
 ### 1. CPU & Memory
