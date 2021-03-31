@@ -28,7 +28,7 @@ The list of functions ported for SnapFaaS:
  - json serialization deserialization
 
 
-## How to port FunctionBench functions to SnapFaaS
+# How to port FunctionBench functions to SnapFaaS
 
 ## Function Interface
 
