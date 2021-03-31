@@ -2,7 +2,7 @@ This is a fork of [FunctionBench](https://github.com/kmu-bigdata/serverless-faas
 
 We port from the AWS implementations of FunctionBench (the original FunctionBench implements an AWS, AZure and Google Cloud version for each function).
 
-The list of functions ported for SnapFaaS:
+The list of FunctionBench functions
 1. CPU & Memory
  - Float Operations(sin, cos, sqrt)
  - MatMul(square matrix multiplication)
